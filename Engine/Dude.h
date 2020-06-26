@@ -11,12 +11,12 @@ public:
 	void Update( const Keyboard& kbd );
 	float GetX() const;
 	float GetY() const;
-	int GetWidth() const;
-	int GetHeight() const;
+	float GetWidth() const;
+	float GetHeight() const;
 private:
 	float x = 400;
 	float y = 300;
-	static constexpr float speed = 1;
-	static constexpr int width = 20;
-	static constexpr int height = 20;
+	static constexpr float speed = 1.5;
+	static constexpr float width = 20;
+	static constexpr float height = 20;
 };

@@ -54,12 +54,12 @@ float Dude::GetY() const
 	return y;
 }
 
-int Dude::GetWidth() const
+float Dude::GetWidth() const
 {
 	return width;
 }
 
-int Dude::GetHeight() const
+float Dude::GetHeight() const
 {
 	return height;
 }
