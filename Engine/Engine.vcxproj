@@ -138,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="ChiliException.h" />
     <ClInclude Include="ChiliWin.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Colors.h" />
     <ClInclude Include="Dude.h" />
     <ClInclude Include="DXErr.h" />
@@ -152,8 +153,10 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Sound.h" />
     <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SpritesSection.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Dude.cpp" />
     <ClCompile Include="DXErr.cpp" />
     <ClCompile Include="Game.cpp" />

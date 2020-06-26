@@ -59,7 +59,7 @@ public:
 		}
 	}
 private:
-	static constexpr int dimension = 20;
+	static constexpr float dimension = 20;
 	Color c = { 127,0,0 };
 	bool colorIncreasing = true;
 	float x;

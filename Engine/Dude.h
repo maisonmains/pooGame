@@ -2,6 +2,7 @@
 
 #include "Graphics.h"
 #include "Keyboard.h"
+#include "SpritesSection.h"
 
 class Dude
 {
@@ -19,4 +20,5 @@ private:
 	static constexpr float speed = 1.5;
 	static constexpr float width = 20;
 	static constexpr float height = 20;
+	
 };

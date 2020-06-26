@@ -2,6 +2,7 @@
 
 #include "Graphics.h"
 #include "Dude.h"
+#include "SpritesSection.h"
 
 class Poo
 {
@@ -18,4 +19,5 @@ private:
 	static constexpr int width = 24;
 	static constexpr int height = 24;
 	bool initialized = false;
+	
 };

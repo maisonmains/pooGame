@@ -27,7 +27,9 @@
 #include "Dude.h"
 #include "Goal.h"
 #include "Meter.h"
+#include "Circle.h"
 #include "SoundEffect.h"
+#include "SpritesSection.h"
 #include <random>
 
 class Game
@@ -42,8 +44,6 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
-	void DrawGameOver( int x,int y );
-	void DrawTitleScreen( int x,int y );
 	/********************************/
 private:
 	MainWindow& wnd;
@@ -56,6 +56,8 @@ private:
 	std::uniform_real_distribution<float> yDist;
 	Dude dude;
 	Goal goal;
+	Sprites startPlusEnd;
+	Circle circle;
 	Meter meter;
 	static constexpr int nPoo = 10;
 	Poo poos[nPoo];
