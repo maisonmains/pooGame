@@ -9,5 +9,5 @@ Circle::Circle( float p_x, float p_y )
 
 void Circle::DrawCircle( Graphics& gfx )
 {
-	gfx.DrawCircle( int( x ), int( y ), int( Dims ), int( Dims ), c );
+	gfx.DrawCircle( int( x ), int( y ), int( Dims ), c );
 }
